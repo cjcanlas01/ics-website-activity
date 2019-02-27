@@ -18,11 +18,14 @@ header.masthead {
       @include serif-font;
     }
     .intro-heading {
+      background-color: white;
       font-size: 50px;
-      font-weight: 700;
+      font-weight: bold;
       line-height: 50px;
       margin-bottom: 25px;
+      padding: 10px;
       color: black;
+      mix-blend-mode: screen; /* This makes the cutout text possible */
       @include heading-font;
     }
   }
