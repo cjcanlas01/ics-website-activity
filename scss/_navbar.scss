@@ -1,6 +1,6 @@
 // Styling for the navbar
 #mainNav {
-  background-color: $gray-900;
+  background-color: $gray-700;
   .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -12,13 +12,14 @@
     @include heading-font;
   }
   .navbar-brand {
-    color: $black;
+    color: black;
+    font-weight: bold;
     @include script-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: white;
     }
   }
   .navbar-nav {
@@ -32,7 +33,7 @@
         @include heading-font;
         &.active,
         &:hover {
-          color: $black;
+          color: yellow;
         }
       }
     }
